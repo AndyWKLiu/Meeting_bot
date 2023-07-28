@@ -9,7 +9,8 @@ url = '' #Insert url between the quotes
 current_time = datetime.now().strftime("%H:%M")
 print(current_time)
 
-
+#Consistently checks the time
+#Program will stop running once task is finish
 while True:
     if current_time != timer:
         current_time = datetime.now().strftime("%H:%M")
